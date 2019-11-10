@@ -1,0 +1,29 @@
+@import "fonts.scss";
+
+body {
+  min-width: 320px;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Cambria";
+  font-weight: 300;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+@import "blocks/header.scss";
+@import "blocks/info.scss";
+@import "blocks/price.scss";
+@import "blocks/instagram.scss";
+@import "blocks/footer.scss";

@@ -1,0 +1,67 @@
+.main__page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.info__block {
+    margin-top: 50px;
+    background-image: url("../img/glitter-brush.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__tittle {
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.info__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info__description {
+    max-width: 630px;
+    font-size: 18px;
+}
+
+.info__img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+@media (min-width:768px){
+    .info__tittle {
+        font-size: 36px;
+    }
+}
+
+@media (min-width:1110px){
+    .main__block {
+        width: 1110px;
+    }
+}
